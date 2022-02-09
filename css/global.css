@@ -2,8 +2,34 @@
 
 /* Generic Animations */
 @keyframes fadeIn {
+    /* A normal fade in */
     from {opacity: 0%;}
     to {opacity: 100%;}
+}
+
+@keyframes fadeOutRollDown {
+    /* Fade out while translating down */
+    from {
+        opacity: 100%;
+    }
+
+    to {
+        opacity: 0%;
+        transform: translateY(1em);
+    }
+}
+
+@keyframes fadeInRollDown {
+    /* Fade in while translating down */
+    from {
+        opacity: 0%;
+        transform: translateY(-1em);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateY(0);
+    }
 }
 
 /* Animations */
@@ -36,12 +62,41 @@ h2 {
     font-size: 3em;
 }
 
+/* Generic Spacing */
+div {
+    margin: 1em;
+    padding:0.5em;
+}
+
 /* Per Section Styling */
 /* Header and Footer */
 header, footer {
     background-color: #5271ff;
+
+    padding: 3em;
 }
 
 header h1, footer h1, header h2, footer h2 {
     color: white;
+}
+
+/* Skill Reel */
+#skillReel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    animation-fill-mode: forwards;
+    /*animation: name duration timing-function delay iteration-count direction fill-mode;*/
+}
+
+#skillReel .logo {
+    width: 20em;
+    height: 20em;
+
+    margin: 0em 1em;
+}
+
+#skillReel h2 {
+    padding: 1em;
 }

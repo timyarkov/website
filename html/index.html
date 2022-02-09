@@ -5,7 +5,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tim Yarkov</title>
+        <link rel="stylesheet" href="../css/reset.css">
         <link rel="stylesheet" href="../css/global.css">
+        <script src="../src/skill_reel.js"></script>
     </head>
 
     <body>
@@ -14,7 +16,14 @@
         </header>
 
         <div id="mainContent">
-            <p>stuff!</p>
+            <!--Skill Reel-->
+            <div id="skillReel" class="rollingDown">
+                <img class="logo">
+                <h2>Sample text!</h2>
+                <script>
+                    initReel(); // Init after tags loaded in
+                </script>
+            </div>
         </div>
 
         <footer>
