@@ -1,0 +1,47 @@
+/* Very nice blue: #5271ff */
+
+/* Generic Animations */
+@keyframes fadeIn {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
+
+/* Animations */
+body {
+    animation-name: fadeIn;
+    animation-duration: 5s;
+}
+
+/* Define Font */
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/OpenSans-ExtraBold.ttf");
+}
+
+/* Text */
+h1, h2, h3, p {
+    font-family: 'Open Sans', sans-serif;
+    color: #5271ff;
+}
+
+h1, h2, h3 {
+    letter-spacing: 0.02em;
+}
+
+h1 {
+    font-size: 6em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+/* Per Section Styling */
+/* Header and Footer */
+header, footer {
+    background-color: #5271ff;
+}
+
+header h1, footer h1, header h2, footer h2 {
+    color: white;
+}
