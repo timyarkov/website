@@ -35,7 +35,7 @@
 /* Animations */
 body {
     animation-name: fadeIn;
-    animation-duration: 5s;
+    animation-duration: 2s;
 }
 
 /* Define Font */
@@ -62,41 +62,17 @@ h2 {
     font-size: 3em;
 }
 
+h3 {
+    font-size: 2em;
+}
+
 /* Generic Spacing */
 div {
     margin: 1em;
     padding:0.5em;
 }
 
-/* Per Section Styling */
-/* Header and Footer */
-header, footer {
-    background-color: #5271ff;
-
-    padding: 3em;
-}
-
-header h1, footer h1, header h2, footer h2 {
-    color: white;
-}
-
-/* Skill Reel */
-#skillReel {
+.centered {
     display: flex;
-    align-items: center;
     justify-content: center;
-
-    animation-fill-mode: forwards;
-    /*animation: name duration timing-function delay iteration-count direction fill-mode;*/
-}
-
-#skillReel .logo {
-    width: 20em;
-    height: 20em;
-
-    margin: 0em 1em;
-}
-
-#skillReel h2 {
-    padding: 1em;
 }

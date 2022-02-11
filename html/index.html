@@ -7,6 +7,7 @@
         <title>Tim Yarkov</title>
         <link rel="stylesheet" href="../css/reset.css">
         <link rel="stylesheet" href="../css/global.css">
+        <link rel="stylesheet" href="../css/index.css">
         <script src="../src/skill_reel.js"></script>
     </head>
 
@@ -18,12 +19,22 @@
         <div id="mainContent">
             <!--Skill Reel-->
             <div id="skillReel" class="rollingDown">
-                <img class="logo">
-                <h2>Sample text!</h2>
+                <img class="logo" alt = "A logo">
+                <h2>Text here please!</h2>
                 <script>
                     initReel(); // Init after tags loaded in
                 </script>
             </div>
+
+            <!--Skill List-->
+            <h3 class="centered">SKILLS</h3>
+            <div id="skillList">
+                <!--Auto-Filled by script; class of skillItem-->
+                <script>
+                    createSkillList();
+                </script>
+            </div>
+            <p class="centered">HOVER OVER EACH TO SEE EXPERIENCE</p>
         </div>
 
         <footer>
