@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="../css/global.css">
         <link rel="stylesheet" href="../css/index.css">
         <script src="../src/skill_reel.js"></script>
+        <script src="../src/portfolio.js"></script>
     </head>
 
     <body>
@@ -35,6 +36,25 @@
                 </script>
             </div>
             <p class="centered">HOVER OVER EACH TO SEE EXPERIENCE</p>
+
+            <div class="spacer"></div>
+
+            <h3 class="centered">PORTFOLIO</h3>
+            <div id="portfolio">
+                <img id="portfolioLArr" src="../img/placeholders/fun.png" onclick="cyclePortfolioLeft()">
+
+                <div id="portfolioItem">
+                    <img id="portfolioLogo" alt = "A logo">
+                    <h4 id="portfolioHeader">Header here please!</h4>
+                    <p id="portfolioDesc">Description here please!</p>
+                </div>
+
+                <img id="portfolioRArr" src="../img/placeholders/fun.png" onclick="cyclePortfolioRight()">
+                <!--Tags autofilled by script-->
+                <script>
+                    createPortfolioList();
+                </script>
+            </div>
         </div>
 
         <footer>

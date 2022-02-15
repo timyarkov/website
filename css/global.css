@@ -1,6 +1,17 @@
 /* Very nice blue: #5271ff */
 
 /* Generic Animations */
+@keyframes pop {
+    /* Increase size slightly*/
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
 @keyframes fadeIn {
     /* A normal fade in */
     from {opacity: 0%;}
@@ -32,6 +43,56 @@
     }
 }
 
+@keyframes fadeOutSlideLeft {
+    /* Fade out while sliding to the left */
+    from {
+        opacity: 100%;
+    }
+
+    to {
+        opacity: 0%;
+        transform: translateX(-1em);
+    }
+}
+
+@keyframes fadeOutSlideRight {
+    /* Fade out while sliding to the right */
+    from {
+        opacity: 100%;
+    }
+
+    to {
+        opacity: 0%;
+        transform: translateX(1em);
+    }
+}
+
+@keyframes fadeInSlideLeft {
+    /* Fade in while sliding to the left */
+    from {
+        opacity: 0%;
+        transform: translateX(1em)
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateX(0em);
+    }
+}
+
+@keyframes fadeInSlideRight {
+    /* Fade in while sliding to the right */
+    from {
+        opacity: 0%;
+        transform: translateX(-1em)
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateX(0em);
+    }
+}
+
 /* Animations */
 body {
     animation-name: fadeIn;
@@ -45,12 +106,12 @@ body {
 }
 
 /* Text */
-h1, h2, h3, p {
+h1, h2, h3, h4, p {
     font-family: 'Open Sans', sans-serif;
     color: #5271ff;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     letter-spacing: 0.02em;
 }
 
@@ -59,10 +120,14 @@ h1 {
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 4em;
 }
 
 h3 {
+    font-size: 3em;
+}
+
+h4 {
     font-size: 2em;
 }
 
@@ -75,4 +140,8 @@ div {
 .centered {
     display: flex;
     justify-content: center;
+}
+
+.spacer {
+    margin: 5em;
 }

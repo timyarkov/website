@@ -67,3 +67,33 @@ header h1, footer h1, header h2, footer h2 {
 
     animation: fadeInRollDown 0.5s ease forwards 1;
 }
+
+/* Portfolio */
+#portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#portfolioItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    max-width: 50%;
+    min-width: 50%;
+}
+
+#portfolioItem h4 {
+    margin: 1em;
+}
+
+#portfolioLogo {
+    width: 9em;
+    height: 9em;
+}
+
+#portfolioLArr:hover, #portfolioRArr:hover {
+    animation: pop 0.5s ease forwards 1;
+}
