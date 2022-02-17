@@ -81,8 +81,8 @@ header h1, footer h1, header h2, footer h2 {
     justify-content: center;
     flex-direction: column;
 
-    max-width: 50%;
-    min-width: 50%;
+    max-width: 40%;
+    min-width: 40%;
 }
 
 #portfolioItem h4 {
@@ -92,6 +92,11 @@ header h1, footer h1, header h2, footer h2 {
 #portfolioLogo {
     width: 9em;
     height: 9em;
+}
+
+#portfolioLArr, #portfolioRArr {
+    width: 3em;
+    height: 3em;
 }
 
 #portfolioLArr:hover, #portfolioRArr:hover {

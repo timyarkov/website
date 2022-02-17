@@ -72,3 +72,13 @@ function cyclePortfolioRight() {
         document.getElementById("portfolioItem").style.animation = "fadeInSlideRight 1s ease forwards 1";
     }, 1000 + loadingOffset);
 }
+
+/**
+ * Applys click animation to the element of the given ID.
+ */
+function applyClickAnim(id) {
+    document.getElementById(id).style.animation = "clickShrink 0.5s ease forwards 1";
+    setTimeout(() => {
+        document.getElementById(id).style.animation = ""; // Reset
+    }, 550);
+}

@@ -41,7 +41,7 @@
 
             <h3 class="centered">PORTFOLIO</h3>
             <div id="portfolio">
-                <img id="portfolioLArr" src="../img/placeholders/fun.png" onclick="cyclePortfolioLeft()">
+                <img id="portfolioLArr" src="../img/leftarrow.png" onclick='cyclePortfolioLeft(); applyClickAnim("portfolioLArr");'>
 
                 <div id="portfolioItem">
                     <img id="portfolioLogo" alt = "A logo">
@@ -49,7 +49,7 @@
                     <p id="portfolioDesc">Description here please!</p>
                 </div>
 
-                <img id="portfolioRArr" src="../img/placeholders/fun.png" onclick="cyclePortfolioRight()">
+                <img id="portfolioRArr" src="../img/rightarrow.png" onclick='cyclePortfolioRight(); applyClickAnim("portfolioRArr");'>
                 <!--Tags autofilled by script-->
                 <script>
                     createPortfolioList();
