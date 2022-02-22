@@ -11,6 +11,63 @@ header h1, footer h1, header h2, footer h2 {
     color: white;
 }
 
+header {
+    display: flex;
+}
+
+header h1 {
+    width: 90%;
+}
+
+header img {
+    /* For image links */
+    width: 5em;
+    height: 5em;
+
+    padding-top: 0.7em;
+    padding-left: 3em;
+}
+
+header img:hover {
+    animation: pop 0.5s ease forwards 1;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+footer p {
+    color: white;
+    padding: 2em;
+}
+
+footer img {
+    /* For image links */
+    width: 5em;
+    height: 5em;
+
+    padding-top: 0.7em;
+    padding-left: 3em;
+}
+
+footer a:hover {
+    animation: pop 0.5s ease forwards 1;
+}
+
+footer a:link, footer a:visited {
+    text-decoration: none;
+}
+
 /* Skill Reel */
 #skillReel {
     display: flex;
