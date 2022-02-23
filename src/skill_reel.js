@@ -1,6 +1,6 @@
 // Text first val, img path second, popup text 3rd
 var reel = [
-    ["Programering", "../img/placeholders/programming.png", "popup1"],
+    ["Java", "../img/logos/java.png", "Java (~18 months)"],
     ["Designering", "../img/placeholders/design.png", "popup2"],
     ["Fun", "../img/placeholders/fun.png", "popup3"]
 ];
