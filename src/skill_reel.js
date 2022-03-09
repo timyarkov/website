@@ -1,8 +1,10 @@
 // Text first val, img path second, popup text 3rd
 var reel = [
-    ["Java", "../img/logos/java.png", "Java (~18 months)"],
-    ["Designering", "../img/placeholders/design.png", "popup2"],
-    ["Fun", "../img/placeholders/fun.png", "popup3"]
+    ["Java", "../img/logos/java.png", "Java"],
+    ["Python", "../img/logos/python.png", "Python"],
+    ["PostgreSQL", "../img/logos/postgresql.png", "PostgreSQL"],
+    ["HTML5", "../img/logos/html5.png", "HTML5"],
+    ["CSS", "../img/logos/css.png", "CSS"]
 ];
 
 var curr_item = 0;

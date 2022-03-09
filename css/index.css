@@ -21,7 +21,7 @@ header h1 {
 
 header img {
     /* For image links */
-    width: 5em;
+    width: auto;
     height: 5em;
 
     padding-top: 0.7em;
@@ -53,7 +53,7 @@ footer p {
 
 footer img {
     /* For image links */
-    width: 5em;
+    width: auto;
     height: 5em;
 
     padding-top: 0.7em;
@@ -79,7 +79,7 @@ footer a:link, footer a:visited {
 }
 
 #skillReel .logo {
-    width: 20em;
+    width: auto;
     height: 20em;
 
     margin: 0em 1em;
@@ -103,7 +103,7 @@ footer a:link, footer a:visited {
 }
 
 .skillItem img {
-    width: 7em;
+    width: auto;
     height: 7em;
 }
 
@@ -147,7 +147,7 @@ footer a:link, footer a:visited {
 }
 
 #portfolioLogo {
-    width: 9em;
+    width: auto;
     height: 9em;
 }
 
